@@ -1,0 +1,11 @@
+l=[]
+c=0
+n=int(input("enter range"))
+for i in range(n):
+    x=int(input("enter elements"))
+    l.append(x)
+print("ur list is:",l)
+for i in range(n):
+    if(l[i]%2==0):
+        c=c+1
+print("no of prime in ur list",c)
